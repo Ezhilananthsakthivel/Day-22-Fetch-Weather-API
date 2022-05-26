@@ -8,7 +8,7 @@ const countries = (data) => {
     const div = document.createElement("div")
     div.className = "col-lg-4 col-sm-12";
     div.innerHTML = `<div class="card" style="width: 18rem;">
-    <div class="card-header text-center">${country.name}</div>
+    <div class="card-header text-center"><h1>${country.name}</h1></div>
     <img src=${country.flag} class="card-img-top" alt="...">
     <div class="card-body text-center">
       <h5 class="card-title">Capital: ${country.capital}</h5>
