@@ -11,9 +11,9 @@ const countries = (data) => {
     <div class="card-header text-center">${country.name}</div>
     <img src=${country.flag} class="card-img-top" alt="...">
     <div class="card-body text-center">
-      <h5 class="card-title">Capital: ${country.capital}</h5>
-      <h5 class="card-title">Region: ${country.region}</h5>
-      <h5 class="card-title">Country Code ${country.alpha3Code}</h5>
+      <h6 class="card-title">Capital: ${country.capital}</h6>
+      <h6 class="card-title">Region: ${country.region}</h6>
+      <h6 class="card-title">Country Code ${country.alpha3Code}</h6>
       <a href="https://api.openweathermap.org/data/2.5/weather?lat=${country.latlng[0]}&lon=${country.latlng[1]}&appid=016ce45c906240f839172d3f50e746af" 
       class="btn btn-primary">Click for Weather</a>
     </div>
